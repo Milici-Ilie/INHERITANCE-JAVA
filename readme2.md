@@ -612,10 +612,16 @@ ex: public class Account { // this is the class declaration
 # 6. -INHERITANCE === on Git-Hub => "INHERITANCE JAVA" 
 
     ## ✅I. -How to use INHERITANCE
+<<<<<<< HEAD
             -How to use "extends" //// this is a "superclass"(or the parent class), of the class we're declaring. We can say "Dog" is a subclass, or child class, of Animal, and 'Animal' is a parent, or super class, of "Dog"
 
 
 [Main.java]/[Animal.java]/[Dog.java]
+=======
+
+
+[]/[]
+>>>>>>> origin/master
 
                                                         ❗❗❗ 🏭🏭[INHERITANCE]🏭🏭 ❗❗❗
 
