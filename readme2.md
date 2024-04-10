@@ -612,16 +612,16 @@ ex: public class Account { // this is the class declaration
 # 6. -INHERITANCE === on Git-Hub => "INHERITANCE JAVA" 
 
     ## ✅I. -How to use INHERITANCE
-<<<<<<< HEAD
             -How to use "extends" //// this is a "superclass"(or the parent class), of the class we're declaring. We can say "Dog" is a subclass, or child class, of Animal, and 'Animal' is a parent, or super class, of "Dog"
-
+             -How to overrid methods (a method written in a subclass, wich has the same signature as a method on s super class will override the method from the super/parent class) ❗ === you override a parent class method, when you want the child class to show different behavior for that 
+-method=== ❗❗❗ we can also override methods auto using IntelliJ [menu, code, overrideMethods ...] 
+-Override method """ 1. It can implement completely different behavior, overriding the behavior of the parent """
+-Override method """ 2. It can simply call the parent class's method, which is somewhat redundant to do """
+-Override method """ 3. Or the method can call the parent class's method, and include other code to run, so it can extend the functionality for the Dog, for that behavior """
 
 [Main.java]/[Animal.java]/[Dog.java]
-=======
 
 
-[]/[]
->>>>>>> origin/master
 
                                                         ❗❗❗ 🏭🏭[INHERITANCE]🏭🏭 ❗❗❗
 

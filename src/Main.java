@@ -5,6 +5,11 @@ public class Main {
 
         Dog dog = new Dog();//calling the "Dog.java" method
         doAnimalStuff(dog, "fast");
+
+        Dog yorkie = new Dog("Yorkie", 15);
+        doAnimalStuff(yorkie, "fast");
+        Dog retriever = new Dog("Labrador retriever", 65, "Floppy", "Swimmer");
+        doAnimalStuff(retriever, "slow");
     }
 
     public static void doAnimalStuff(Animal animal, String speed) {

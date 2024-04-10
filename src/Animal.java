@@ -28,7 +28,7 @@ public class Animal {
                 ", size='" + size + '\'' +
                 ", weight=" + weight +
                 '}';
-    }// toString(), we need it to display the data/info
+    }// toString(), we need it to display the data/info ❗ this method is override in the "Dog.java" file, check the circle with arrow from the left
 
     public void move(String speed) {
         System.out.println(type + " moves " + speed);
