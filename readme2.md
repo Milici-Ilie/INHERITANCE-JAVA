@@ -731,6 +731,11 @@ this.height = height;
 2. The return type can be a subclass of the return type in the parent class
 3. It can't have a lower access modifier. In other words, it can;t have more restrictive access privileges
 4. For example, if the parent's method is protected, then using private in the child's overridden method is not allowed. However, using public for the child's method would be allowed, in this example.
+5. Only INHERITED METHODS can be overridden, in other words, methods can be overridden only in child classes.
+6. Constructors and private methods cannot be overridden
+7. Methods that are final cannot be overridden
+
+-Method Overriding VS Overloading ------IMG [documentation IMAGES] (method Overriding vs Overloading) IMG
 
     ## ✅VI. subtitlu
 
