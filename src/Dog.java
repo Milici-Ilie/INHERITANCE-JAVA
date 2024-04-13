@@ -30,11 +30,43 @@ public class Dog extends Animal {
 
     public void makeNoise() {
 
+        if(type == "Wolf"){
+            System.out.println("Ow Wooooo! ");
+        }
+
+        bark();
+        System.out.println();
     }//in the left, you can see a "blue circle with a red arrow on it", that's indicate that this method wil override the original method
 
     @Override
     public void move(String speed) {
         super.move(speed);
-        System.out.println("Dogs walk, run and wag their tail");
+//        System.out.println("Dogs walk, run and wag their tail");
+        if (speed == "slow") {
+            walk();
+            wagTail();
+        } else {
+            run();
+            bark();
+        }
+        System.out.println();
     }// we can override a method using the "auto" from the IntelliJ [menu, code, override Methods...]
+
+    private void bark() {
+        System.out.println("Woof! ");
+
+    }
+
+    private void run() {
+        System.out.println("Dog Running! ");
+    }
+
+    private void walk() {
+        System.out.println("Dog Walking! ");
+
+    }
+
+    private void wagTail() {
+        System.out.println("Tail Wagging! ");
+    }
 }// the "Dog" file will inherit all the attributes from the "Animal.java" file, and we can add more attributes (type, size and weight)

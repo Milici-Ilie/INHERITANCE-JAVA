@@ -612,6 +612,8 @@ ex: public class Account { // this is the class declaration
 # 6. -INHERITANCE === on Git-Hub => "INHERITANCE JAVA" 
 
     ## ✅I. -How to use INHERITANCE
+             -How to create multiple child class, ex: paren[Animal], childs: [Dog],[Fish] files
+            -How to pass data from parent to child/// how to pass data from a file to another
             -How to use "extends" //// this is a "superclass"(or the parent class), of the class we're declaring. We can say "Dog" is a subclass, or child class, of Animal, and 'Animal' is a parent, or super class, of "Dog"
              -How to overrid methods (a method written in a subclass, wich has the same signature as a method on s super class will override the method from the super/parent class) ❗ === you override a parent class method, when you want the child class to show different behavior for that 
 -method=== ❗❗❗ we can also override methods auto using IntelliJ [menu, code, overrideMethods ...] 
@@ -619,13 +621,17 @@ ex: public class Account { // this is the class declaration
 -Override method """ 2. It can simply call the parent class's method, which is somewhat redundant to do """
 -Override method """ 3. Or the method can call the parent class's method, and include other code to run, so it can extend the functionality for the Dog, for that behavior """
 
+-using "protected" instead of "private" when calling attributes, encapsulation we let the child files to connect and make changes to the parent attribute
+
 [Main.java]/[Animal.java]/[Dog.java]
 
 
 
                                                         ❗❗❗ 🏭🏭[INHERITANCE]🏭🏭 ❗❗❗
 
-    ## ✅II. subtitlu
+    ## ✅II. ----CHALLENGE with Inheritance----
+
+[Main.java]/[Worker.java]/[Employee.java]/[SalariedEmployee.java]/[HourlyEmployee.java]
 
     ## ✅III. subtitlu
 

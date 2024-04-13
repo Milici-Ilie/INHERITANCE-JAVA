@@ -10,6 +10,12 @@ public class Main {
         doAnimalStuff(yorkie, "fast");
         Dog retriever = new Dog("Labrador retriever", 65, "Floppy", "Swimmer");
         doAnimalStuff(retriever, "slow");
+
+        Dog wolf = new Dog("Wolf", 40);
+        doAnimalStuff(wolf, "slow");
+
+        Fish goldie = new Fish("Goldfish", 0.25, 2, 3);
+        doAnimalStuff(goldie, "fast");
     }
 
     public static void doAnimalStuff(Animal animal, String speed) {
@@ -19,4 +25,6 @@ public class Main {
         System.out.println(animal);
         System.out.println("_ _ _ _");
     }
+
+    //////////////////////////////////CHALLENGE//////////////////////////////
 }

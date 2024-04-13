@@ -2,7 +2,7 @@ public class Animal {
     //🏭🏭[INHERITANCE]🏭🏭 = 🏭🏭[INHERITANCE]🏭🏭 = 🏭🏭[INHERITANCE]🏭🏭
 
     /////////////////////////ATTRIBUTES///////////////////////
-    private String type;
+    protected String type;// giving access to child files to mutate this attribute if need it
     private String size;
     private double weight;
 
