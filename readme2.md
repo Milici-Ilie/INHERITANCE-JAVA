@@ -737,7 +737,37 @@ this.height = height;
 
 -Method Overriding VS Overloading ------IMG [documentation IMAGES] (method Overriding vs Overloading) IMG
 
-    ## ✅VI. subtitlu
+    ## ✅VI. -What is Text Block and other Formatting Options
+             -String Formatting
+             -How to format the lines
+             -Common Escape Sequences
+             -How to separate lines/ how to insert a tab character/ how to insert a new line character
+             -How to insert a double quote character
+             -How to insert a backslash character
+             -How to insert arguments with character/replacing characters with values
+             -How to use "System.out.printf"
+             -Another look at the String
+
+-At their most complex, format specifiers take the form shown here.
+- %[argument_index$] [flags] [width] [.precision] conversion
+- They start with a percent sign, and end with a conversion symbol, and have lots of options in between
+- Conversiion type, d, is the symbol used for decimal integer value
+
+1. \t -> Insert a tab character. --- normal TAB space
+2. \n -> Insert a new line character. --- starting from a new line
+3. \" -> Insert a double quote character. --- insert "
+4. \\ -> Insert a backslash character. --- insert this "\"
+
+                        ❗❗❗❗ 🦓🦓[FORMATTING STRING]🦓🦓 ❗❗❗
+
+-We can split String's methods up into three basic categories:
+1. String Inspection Methods
+2. Methods for Comparing String values
+3. String Manipulation Methods
+
+-String Inspection Methods [documentation IMAGES] (String Inspection) IMG
+
+[StringFormatting.java]/[Main.java]
 
     ## ✅VII. subtitlu
 

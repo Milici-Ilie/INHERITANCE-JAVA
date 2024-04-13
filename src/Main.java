@@ -31,6 +31,29 @@ public class Main {
 
         joe.retire();
         System.out.println("Joe's Pension check  = $" + joe.collectPay());
+
+        //🦓🦓[FORMATTING STRING]🦓🦓 🦓🦓[FORMATTING STRING]🦓🦓 🦓🦓[FORMATTING STRING]🦓🦓
+
+        String bulletIt = "Print a Bulleted List:\n" + "\t\u2022 First Point\n" + "\t\t\u2022 Sub Point\\";
+        System.out.println(bulletIt);
+
+        String textBlock = """
+                Print a Bulleted List: 
+                    \u2022 First Point 
+                        \u2022 Sub Point
+                        """;
+        System.out.println(textBlock);
+
+        int age = 35;
+        System.out.printf("Your age is %d%n", age);
+        int yearOfBirth = 2023 - age;
+        System.out.printf("Age %d, Birth year %d%n", age, yearOfBirth);
+
+        System.out.printf("Your age is %.2f%n", (float) age);// here we specified that we want to print only the last 2 decimals "%.2f%n", ex: 35.00
+
+        for (int i = 1; i <= 100000; i *= 10) {
+            System.out.printf("Printing %6d %n", i);
+        }
     }
 
     public static void doAnimalStuff(Animal animal, String speed) {
