@@ -12,6 +12,21 @@ public class Worker {
         this.birthDate = birthDate;
     }
 
+    public int getAge() {
+        int currentYear = 2024;
+        int birthYear = Integer.parseInt(birthDate.substring(6));// EXTRACTING the YEAR using the 0 base numbering
+
+        return (currentYear - birthYear);
+    }
+
+    public double collectPay() {
+        return 0.0;
+    }
+
+    public void terminate(String endDate) {
+        this.endDate = endDate;
+    }
+
     @Override
     public String toString() {
         return "Worker{" +
@@ -19,21 +34,5 @@ public class Worker {
                 ", birthDate='" + birthDate + '\'' +
                 ", endDate='" + endDate + '\'' +
                 '}';
-    }
-
-    public int getAge(){
-        int currentYear = 2024;
-        int birthYear = Integer.parseInt(birthDate);// we need to convert the string that we get from the User to valid data/numbers
-        int age = currentYear - birthYear;
-        System.out.println("Age: " + age);
-        return age;
-    }
-
-    public double collectPay(){
-
-    }
-
-    public String terminate(){
-
     }
 }

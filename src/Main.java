@@ -16,6 +16,21 @@ public class Main {
 
         Fish goldie = new Fish("Goldfish", 0.25, 2, 3);
         doAnimalStuff(goldie, "fast");
+
+        //////////////////////////////////Worker CHALLENGE//////////////////////////////
+
+        Employee milici = new Employee("Milici", "04/10/1993", "08/10/2024");
+
+        System.out.println(milici);
+        System.out.println("Age = " + milici.getAge());
+        System.out.println("Pay = " + milici.collectPay());
+
+        SalariedEmployee joe = new SalariedEmployee("Joe", "11/14/2002", "03/03/2006", 35000);
+        System.out.println(joe);
+        System.out.println("Joe's Paycheck = $" + joe.collectPay());
+
+        joe.retire();
+        System.out.println("Joe's Pension check  = $" + joe.collectPay());
     }
 
     public static void doAnimalStuff(Animal animal, String speed) {
@@ -26,5 +41,4 @@ public class Main {
         System.out.println("_ _ _ _");
     }
 
-    //////////////////////////////////CHALLENGE//////////////////////////////
 }
